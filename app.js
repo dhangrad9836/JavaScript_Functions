@@ -69,7 +69,10 @@ console.log("EXERCISE 5:\n==========\n");
 
 //data plan function
 function mobilePhoneDataUsage(planLimit, day, usage) {
-  //
+  //initialize variables for days left on plan
+  let daysLeft = 30 - day;
+
+  //will submit again when completed
 } //end mobilePhoneDataUsage
 
 //printOdds(55);
